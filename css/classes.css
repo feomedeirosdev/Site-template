@@ -11,3 +11,35 @@
 .centralizar {
 	text-align: center;
 }
+
+.zap {
+	margin: auto;
+	display: block;
+	background-color: #128C7E;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px 25px;
+	text-align: center;
+	width: 200px;
+	border-radius: 30px;
+	font-weight: bold;
+}
+
+.zap-container {
+	background-color: #ffffff;
+	margin: 5px auto 15px;
+	padding: 0px 0px 10px 0px;
+	width: 350px;
+	border-radius: 15px;
+	
+}
+
+.sac {
+	color: var(--cor2);
+	text-decoration: none;
+}
+
+.sac:hover {
+	color: var(--cor2);
+	text-decoration: underline;
+}

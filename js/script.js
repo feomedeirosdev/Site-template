@@ -21,3 +21,11 @@ function mostrartdu() {
 		tdu.style.display = 'block';
 	}
 }
+
+function mostrarfc() {
+	if (fc.style.display == 'block') {
+		fc.style.display = 'none';
+	} else {
+		fc.style.display = 'block';
+	}
+}
