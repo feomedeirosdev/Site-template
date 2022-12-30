@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.sumir {display: none;}
+
+.corpo {margin: 0px auto; max-width: 768px;}
+
+.negrito {
+	font-weight: bold;
+}
+
+.centralizar {
+	text-align: center;
+}
