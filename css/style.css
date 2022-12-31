@@ -10,6 +10,7 @@ body {height: 100%; width: 100%; font: 16px 'Open Sans', sans-serif;}
 	--cor2: #961B1F;
 	--cort: #677279;
 	--corf: #F3F5F7;
+	--corb: #D3DCE2;
 }
 
 /* ASIDE */
@@ -35,25 +36,58 @@ aside h1:hover {
 aside h2 {
 	font-size: 1.3em;
 	padding: 15px 20px;
-	color: #628599;
+	color: var(--cor1);
 }
 
 aside h3 {
 	font-size: 1em;
 	padding: 15px 20px;
-	color: #628599;
+	color: var(--cor1);
 }
 
 aside p {
 	padding: 5px 20px;
 	line-height: 1.5em;
 	text-align: justify;
-	color: #677279;
+	color: var(--cort);
 }
 
 aside ol, aside ul {
 	padding: 10px 20px 10px 35px;
 	line-height: 1.5em;
 	text-align: left;
-	color: #677279;
+	color: var(--cort);
+}
+
+footer {
+	background-color:var(--corb);
+}
+
+footer h1 {
+	color: var(--cor1);
+	font-size: 1.3em;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+footer p {
+	padding: 5px 0px;
+	color: var(--cort);
+	line-height: 1.7em;
+}
+
+div#conteudo-rodape {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+p#final {
+	padding: 0;
+	background-color: #000000;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
 }
